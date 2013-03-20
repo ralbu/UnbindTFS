@@ -16,12 +16,13 @@ GlobalSection(TeamFoundationVersionControl) = preSolution
    SccProvider0 = 
 EndGlobalSection
 </pre>
+
 2. Edits the C# project files (.csproj) and removes these lines:
 <pre>
-<SccProjectName></SccProjectName>
-<SccLocalPath></SccLocalPath>
-<SccAuxPath></SccAuxPath>
-<SccProvider></SccProvider>
+   <SccProjectName></SccProjectName>
+   <SccLocalPath></SccLocalPath>
+   <SccAuxPath></SccAuxPath>
+   <SccProvider></SccProvider>
 </pre>
 3. Removes all the .vssscc and .vspscc files.
 
