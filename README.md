@@ -3,6 +3,7 @@ UnbindTFS
 
 Removes the TFS bindinds from a C# Visual Studio project.
 The application does the following steps to remove the TFS binding:
+
 1. Edits the solution .sln files and removes these lines:
 <pre>
 GlobalSection(TeamFoundationVersionControl) = preSolution
