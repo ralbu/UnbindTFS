@@ -19,10 +19,10 @@ EndGlobalSection
 
 2. Edits the C# project files (.csproj) and removes these lines:
 <pre>
-   <SccProjectName></SccProjectName>
-   <SccLocalPath></SccLocalPath>
-   <SccAuxPath></SccAuxPath>
-   <SccProvider></SccProvider>
+   &lt;SccProjectName&gt;&lt;/SccProjectName&gt;
+   &lt;SccLocalPath&gt;&lt;/SccLocalPath&gt;
+   &lt;SccAuxPath&gt;&lt;/SccAuxPath&gt;
+   &lt;SccProvider&gt;&lt;/SccProvider&gt;
 </pre>
 3. Removes all the .vssscc and .vspscc files.
 
