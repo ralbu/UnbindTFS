@@ -56,6 +56,7 @@ namespace UnbindTFS
             finally
             {
                 _logStream.Close();
+				_logStream = null;
             }
         }
 
