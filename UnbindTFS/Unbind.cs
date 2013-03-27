@@ -31,7 +31,7 @@ namespace UnbindTFS
             
             try
             {
-                if (ignorePaths != null) FillIgnorePaths(ignorePaths);
+                if (string.IsNullOrEmpty(ignorePaths)) FillIgnorePaths(ignorePaths);
 
                 Log("Start unbind");
 
